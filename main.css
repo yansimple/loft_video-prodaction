@@ -1,1 +1,42 @@
-@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+body {
+    color: #fff;
+    background-color: black;
+    background-image:url(./img/hero.png);
+}
+.wrapper {
+    width: 1142px;
+    margin: 0 auto;
+
+    
+}
+.logo {
+    display: block;
+    top: 10px;
+}
+.header {
+   height: 129px;
+   position: relative;
+    
+}
+.menu_list {
+   position: absolute;
+   left: 250px;
+}
+.menu_list li{
+   display: inline-block; 
+   vertical-align: middle;
+   margin-right: 50px;
+}
+.contacts {
+    position: absolute;
+    right: 0px;
+}
+a {
+    text-decoration: none;
+}
+
+.menu_list-item {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
