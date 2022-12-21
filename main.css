@@ -4,6 +4,8 @@ body {
     color: #fff;
     background-color: black;
     background-image:url(./img/hero.png);
+    font-family: OpenSans;
+    font-size: 14px;
 }
 .wrapper {
     width: 1142px;
@@ -13,7 +15,10 @@ body {
 }
 .logo {
     display: block;
-    top: 10px;
+    margin-top: 21px;
+    margin-left: 7px;
+    width: 198px;
+
 }
 .header {
    height: 129px;
@@ -41,4 +46,67 @@ a {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
+    position: absolute;
+    margin-top: 42px;
+    margin-right: 54px;
+}
+
+.contacts__phone a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    align-items: center;
+    top: 26.64pxw3q9;lpōp8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              O0;
+}
+
+.contacts__phone-info {
+    display: inline-block;
+    text-align: right;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    align-items: center;
+    text-decoration-line: underline;
+    right: 2px;
+    color: #FF3D00;
+}
+
+.main {
+    display: block;
+}
+
+.main_title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.main__subtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.btn {
+    width: 195px;
+    background: #FF3D00;
+    border-radius: 35px;
+    align-items: center;
 }
